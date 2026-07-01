@@ -13,7 +13,7 @@ DallasTemperature sensors(&oneWire);
 
 const int tempThreshold = 40;  // Temperature alert threshold (°C)
 const int waterThreshold = 200;  // Water level threshold (Adjust based on testing)
-const char phoneNumber[] = "+918921125269";  // Alert recipient
+const char phoneNumber[] = "+91xxxxxxxxxx";  // Alert recipient
 
 bool tempAlertSent = false;
 bool waterAlertSent = false;
